@@ -23,7 +23,8 @@ void crearTriangulo(int n) {
 		}
 		cout << endl;
 	}
-}void OrdenarArreglo(char arreglo[]) {
+}
+void OrdenarArreglo(char arreglo[]) {
 	for (int i = 0; i < 10 - 1; i++) {
 		for (int j = i + 1; j < 10; j++) {
 			if (arreglo[i] > arreglo[j]) {
@@ -43,7 +44,6 @@ void eliminarLetrasDuplicadas(char arreglo[]) {
 		}
 	}
 }
-
 int main() {
 	int salir;
 	char arreglo[10];
